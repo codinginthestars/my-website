@@ -56,5 +56,31 @@ h2 {
 .project {
     border: whitesmoke;
     display: inline-block;
+    padding-top: 20px;
     width: 30%;
+    height: 500px;
+    transition: 0.3s;
+}
+.project:hover {
+    transform: scale(1.07);
+}
+
+.social {
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 15px;
+}
+.social h3 {
+    padding: 0;
+    margin-bottom: 15px;
+}
+.social a {
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    color: whitesmoke;
+}
+.fa-brands:hover {
+    color: #3a3838;
+    transition: 0.3s;
 }
