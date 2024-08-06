@@ -8,13 +8,26 @@ body {
 }
 #my-pic {
     width: 300px;
+    margin-bottom: 50px;
     border-radius: 50%;
+    border: 6px solid black;
+    transition: 0.4s;
 }
+#my-pic:hover {
+    border: 6px solid #3a3838;
+    transform: scale(1.04);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
 #line1 {
     width: 70%;
 }
 #line2 {
     width: 80%;
+}
+#line3 {
+    width: 90%;
 }
 
 .top-container {
@@ -24,29 +37,32 @@ body {
     background-size: cover;
     background-position: center;
     text-align: center;
-    padding-top: 40px;
+    padding: 60px 0px;
 }
 
 .top-page {
-    width: 42%;
+    width: 45%;
 }
-
+#myface {
+    text-align: center;
+}
 #info {
     font-size: 30px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 80px;
-    padding: 20px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    font-weight: 500;
     background-color: rgba(7, 7, 7, 0.8);
+    box-shadow: 0px 0px 5px 5px rgba(7, 7, 7, 0.8);
+}
+#info p {
+    padding: 40px 30px;
+    text-align: center;
+    width: 90%;
 }
 h1 {
     margin: 0;
 }
 h2 {
-    padding-top: 10px;
-    padding-bottom: 0px;
+    margin: 0;
+    padding: 10px;
 }
 
 .project-container {
@@ -63,6 +79,7 @@ h2 {
 }
 .project:hover {
     transform: scale(1.07);
+    cursor: pointer;
 }
 
 .social {
